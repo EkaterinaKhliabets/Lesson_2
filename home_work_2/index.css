@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.why-awesome {
+    font-size: 0;
+    margin-top: 67px; 
+    margin-left: 127px;
+    margin-right: 127px;
+}
+
+.awesome h1 {
+    margin-top: 100px;
+    font-family: Raleway;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;  
+    line-height: 42px;
+    color: #212121;
+}
+.awesome hr {
+    margin-top: 25px;
+    margin-left: calc(50% - 32px);
+    border: none; 
+    color: #E72424; 
+    background-color:#E72424;
+    height: 1px; 
+    width: 64px; 
+}
+
+.awesome p {
+    margin-top: 30px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #86878B;
+ }
+
+.why-awesome-block {
+    display: inline-block;
+    width: 33.33%;
+    font-size: 16px;
+    float: left;
+}
+
+.why-awesome-block h2 {
+    margin-top: 30px; 
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.why-awesome-block p {
+    margin: 18px 16px 0 16px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    
+}
+
+.circle-image{
+    display: inline-block;
+    border: 1px solid #E72424;
+    border-style: solid;
+    border-radius: 70px;
+    width: 70px;
+    height: 70px; 
+}
+
+.menu-hobby{
+    list-style-type: none;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+.menu-hobby li {
+    float: left; 
+    
+}
+
+.menu-hobby a{
+    display: block;
+    padding: 8px;
+    color: dimgray; 
+    text-align: center;
+    text-decoration: none;
+ }
+
+.menu-hobby li a:hover:not(.active)
+{
+    background-color: gray;
+}
+
+.menu-hobby li a.active{
+    color: rebeccapurple;
+    background-color: rosybrown;
+}
+.menu-hobby li a:visited{
+    color: red;
+}
+
+.menu-hobby-description {
+    margin: 10px 150px ;
+}
+
+.menu-hobby-description img{
+    margin-bottom: 50px;
+}
+
+.menu-hobby-description p{
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.menu-hobby-description h1{
+    margin-bottom: 50px;
+
+    font-family: Raleway;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;  
+    line-height: 42px;
+    color: #212121;
+}
+
+.literature li {
+    text-align: left;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.literature p {
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+
+
+
+
